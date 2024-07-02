@@ -39,7 +39,7 @@ Màn hình đang chờ
 - Layout: customdialog.xml
 - Công dụng: màn hình này hiển thị lên khi có một hành động đang chờ.
 
-![](README_image/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.002.png)
+![](./README_images/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.002.png)
 
 <a name="_toc121076382"></a>Figure 2 Màn hình chờ
 
@@ -48,7 +48,7 @@ Màn hình khởi động
 - Layout: activity\_main.xml
 - Công dụng: màn hình khởi động khi bật app.
 
-![](README_image/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.003.jpeg)
+![](./README_images/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.003.jpeg)
 
 <a name="_toc121076383"></a>Figure 3 Màn hình khởi động
 
@@ -59,7 +59,7 @@ Màn hình menu đăng nhập
 - Layout: activity\_first.xml
 - Công dụng: màn hình này hiển thị các chức năng như đăng nhập bằng Facebook, đăng ký, đăng nhập.
 
-![](README_image/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.004.jpeg)
+![](./README_images/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.004.jpeg)
 
 <a name="_toc121076384"></a>Figure 4 Màn hình menu đăng nhập
 
@@ -70,7 +70,7 @@ Màn hình đăng nhập
 - Layout: activity\_dang\_nhap.xml
 - Công dụng: màn hình này hiển thị giao diện đăng nhập
 
-![](README_image/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.005.jpeg)
+![](./README_images/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.005.jpeg)
 
 <a name="_toc121076385"></a>Figure 5 Màn hình đăng nhập
 
@@ -79,7 +79,7 @@ Màn hình đăng ký
 - Layout: dialog\_dang\_ky\_free.xml
 - Công dụng: màn hình này hiển thị giao diện đăng ký cho người dùng
 
-![](README_image/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.006.jpeg)
+![](./README_images/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.006.jpeg)
 
 <a name="_toc121076386"></a>Figure 6 Màn hình đăng ký
 
@@ -88,7 +88,7 @@ Màn hình quên mật khẩu
 - Layout: dialog\_forget\_pasword.xml, fragment\_dialog\_quen\_mk.xml
 - Công dụng: màn hình này hiển thị giao diện quên mật khẩu của người dùng.
 
-![](README_image/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.007.jpeg)
+![](./README_images/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.007.jpeg)
 
 <a name="_toc121076387"></a>Figure 7 Màn hình quên mật khẩu
 
@@ -98,7 +98,7 @@ Màn hình đổi mật khẩu
 - Layout: fragment\_doi\_matkhau.xml
 - Công dụng: sau khi xác thực quên mật khẩu thành công người dùng có thể đổi mật khẩu tại màn hình này.
 
-![](README_image/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.008.jpeg)
+![](./README_images/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.008.jpeg)
 
 <a name="_toc121076388"></a>Figure 8 Màn hình đổi mật khẩu
 
@@ -115,7 +115,7 @@ Màn hình trang chủ
   - Mỗi mục chứa layout: activity\_danhsachbaihat.xml
 - Công dụng: màn hình này hiển thị các danh mục bài hát, mỗi danh mục bao gồm tất cả các bài hát trong đó. 
 
-![](README_image/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.009.jpeg)
+![](./README_images/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.009.jpeg)
 
 <a name="_toc121076389"></a>Figure 9 Màn hình trang chủ
 
@@ -125,7 +125,7 @@ Màn hình danh sách bài hát
 - Layout: activity\_danhsachbaihat.xml
 - Công dụng: màn hình này hiển thị danh sách bài hát của mỗi chuyên mục.
 
-![](README_image/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.010.jpeg)
+![](./README_images/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.010.jpeg)
 
 <a name="_toc121076390"></a>Figure 10 Màn hình danh sách bài hát
 
@@ -134,11 +134,11 @@ Màn hình tìm kiếm
 - Layout: fragment\_tim\_kiem.xml
 - Công dụng: màn hình này hiển thị giao diện chức năng tìm kiếm bài hát.
 
-![](README_image/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.011.jpeg)
+![](./README_images/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.011.jpeg)
 
 <a name="_toc121076391"></a>Figure 11 Màn hình tìm kiếm
 
-![](README_image/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.012.jpeg)
+![](./README_images/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.012.jpeg)
 
 <a name="_toc121076392"></a>Figure 12 Màn hình tìm kiếm
 
@@ -151,15 +151,15 @@ Màn hình thư viện
   - Thư viện yêu thích của người dùng: fragment\_thuvien\_yeuthich.xml
 - Công dụng: màn hình này hiển thị danh sách thư viện playlist, thư viện các bài hát yêu thích và nghệ sĩ dành cho người dùng.
 
-![](README_image/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.013.jpeg)
+![](./README_images/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.013.jpeg)
 
 <a name="_toc121076393"></a>Figure 13 Màn hình thư viện
 
-![](README_image/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.014.jpeg)
+![](./README_images/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.014.jpeg)
 
 <a name="_toc121076394"></a>Figure 14 Màn hình thư viện
 
-![](README_image/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.015.jpeg)
+![](./README_images/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.015.jpeg)
 
 <a name="_toc121076395"></a>Figure 15 Màn hình thư viện
 
@@ -169,7 +169,7 @@ Màn hình profile
 - Layout: fragment\_profile.xml
 - Công dụng: màn hình này hiển thị profile của người dùng và có chức năng đăng xuất tài khoản người dùng.
 
-![](README_image/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.016.jpeg)
+![](./README_images/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.016.jpeg)
 
 <a name="_toc121076396"></a>Figure 16 Màn hình profile
 
@@ -178,7 +178,7 @@ Màn hình tạo playlist
 - Layout: activity\_insert\_nhac\_thu\_vien.xml, fragment\_insert\_nhac\_thu\_vien.xml, dialog\_insert\_thuvien\_playlist.xml
 - Công dụng: màn hình này hiển thị chức năng tạo playlist, tìm kiếm và thêm nhạc vào playlist riêng của người dùng.
 
-![](README_image/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.017.jpeg)
+![](./README_images/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.017.jpeg)
 
 <a name="_toc121076397"></a>Figure 17 Màn hình profile
 
@@ -187,7 +187,7 @@ Màn hình play nhạc
 - Layout: activity\_play\_nhac.xml, fragment\_dianhac.xml
 - Công dụng: màn hình này hiển thị các nút xử lý bài hát và phát nhạc.
 
-![](README_image/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.018.jpeg)
+![](./README_images/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.018.jpeg)
 
 <a name="_toc121076398"></a>Figure 18 Màn hình play nhạc
 
@@ -197,7 +197,7 @@ Layout: dialog\_update\_profile.xml
 
 Công dụng: khi nhấn vào avatar, màn hình này cho hiện lên bao gồm username cho người dùng biết rằng họ đang xử dụng tài khoản nào.
 
-![](README_image/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.019.jpeg)
+![](./README_images/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.019.jpeg)
 
 <a name="_toc121076399"></a>Figure 19 Màn hình profile ẩn hiện
 
@@ -207,7 +207,7 @@ Layout: layout\_notification.xml
 
 Công dụng: khi khởi chạy một bài hát màn hình này hiển thị lên cho người dùng xử lý bài hát trên thanh thông báo.
 
-![](README_image/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.020.jpeg)
+![](./README_images/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.020.jpeg)
 
 <a name="_toc121076400"></a>Figure 20 Màn hình nhạc trên thanh thông báo
 
@@ -219,7 +219,7 @@ Công dụng: khi khởi chạy một bài hát màn hình này hiển thị lê
 
 <a name="_toc121076374"></a>**3.1 Lược đồ cơ sở dữ liệu**
 
-![](README_image/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.021.png)
+![](./README_images/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.021.png)
 
 <a name="_toc121076401"></a>Figure 21 Lược đồ cơ sở dữ liệu
 
