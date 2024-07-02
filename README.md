@@ -1,6 +1,4 @@
-﻿9
-
-<a name="_toc121076370"></a>**CHƯƠNG 1: PHÁT BIỂU BÀI TOÁN**
+﻿<a name="_toc121076370"></a>**CHƯƠNG 1: PHÁT BIỂU BÀI TOÁN**
 
 ![](Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.001.jpeg)
 
