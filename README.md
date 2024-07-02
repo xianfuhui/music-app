@@ -2,23 +2,19 @@
 
 <a name="_toc121076370"></a>**CHƯƠNG 1: PHÁT BIỂU BÀI TOÁN**
 
-1. <a name="_toc121076371"></a>**Usecase diagram:**
-
-![](Aspose.Words.0dff08cf-e79d-4699-8533-3d962045b6c3.001.jpeg)
+![](Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.001.jpeg)
 
 <a name="_toc121076381"></a>Figure 1 Usecase diagram
 
 Mô hình hoạt động:
 
-`	`Khi các Table và dữ liệu được nhập trên Database. Một trang web cung cấp các service từ PHP để lấy dữ liệu từ Database rồi hiển thị lên dạng API. Ứng dụng nghe nhạc sử dụng Retrofit giúp dễ dàng kết nối đến một dịch vụ REST trên web bằng cách chuyển đổi API thành Java Interface. Sau khi đã có được dữ liệu Java Interface ta dễ dàng hiển thị chúng trên View tương tác với người dùng.
+- Khi các Table và dữ liệu được nhập trên Database. Một trang web cung cấp các service từ PHP để lấy dữ liệu từ Database rồi hiển thị lên dạng API. Ứng dụng nghe nhạc sử dụng Retrofit giúp dễ dàng kết nối đến một dịch vụ REST trên web bằng cách chuyển đổi API thành Java Interface. Sau khi đã có được dữ liệu Java Interface ta dễ dàng hiển thị chúng trên View tương tác với người dùng.
 
 Cấu tạo ứng dụng:
 
-`	`Database: https://databases-auth.000webhost.com/
-
-`	`Host chứa PHP lấy API: http://huy329.000webhostapp.com/Server
-
-`	`Ứng dụng Android: MusicS-H
+- Database: https://databases-auth.000webhost.com/
+- Host chứa PHP lấy API: http://huy329.000webhostapp.com/Server
+- Ứng dụng Android: MusicS-H
 
 Chức năng:
 
@@ -29,7 +25,7 @@ Màn hình “menu đăng nhập” : Tài khoản có sẵn: user & passw
 - Đăng ký: Người dùng có thể đăng ký  bằng cách tự tạo tên người dùng, mật khẩu, điền và xác thực email của mình.
 - Quên mật khẩu: Dùng để lấy lại tài khoản do quên mật khẩu. Mã xác thực sẽ được gửi qua mail và cho phép người dùng lấy lại tài khoản khi nhập đúng tên tài khoản và mã xác thực.
 
-Sau khi đăng nhập thành công, người dùng sẽ được sử dụng ứng dụng gồm 4 màn hình :
+  Sau khi đăng nhập thành công, người dùng sẽ được sử dụng ứng dụng gồm 4 màn hình :
 
 - Màn hình chính (có hình ngôi nhà) : Ở đây người dùng có thể nghe nhạc theo “Danh sách phát”, “Danh sách nghệ sĩ”, “ Thịnh hành”, “Phổ biến”, “Chủ đề” và “Bảng xếp hạng”. Chọn và hàn hình sẽ hiển thị các nội dung phù hợp với yêu cầu của người dùng, và nhạc sẽ được phát. Khi nhạc được phát người dùng vẫn có thể thoát hoặc tắt màn hình mà không sợ nhạc sẽ dừng.
 - Màn hình tìm kiếm: ở đây người dùng có thể tự tìm kiếm theo từ khóa (có thể là tên bài hát hoặc ca sĩ) hoặc sử dụng các gợi ý tìm kiếm có sẵn dưới thanh tìm kiếm.Các bài hát sẽ được lọc từ database do admin đăng lên và hiển thị lần lượt dưới thanh thông báo.
@@ -42,21 +38,19 @@ Sau khi đăng nhập thành công, người dùng sẽ được sử dụ
 
 Màn hình đang chờ
 
-Layout: customdialog.xml
+- Layout: customdialog.xml
+- Công dụng: màn hình này hiển thị lên khi có một hành động đang chờ.
 
-Công dụng: màn hình này hiển thị lên khi có một hành động đang chờ.
-
-![](Aspose.Words.0dff08cf-e79d-4699-8533-3d962045b6c3.002.png)
+![](Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.002.png)
 
 <a name="_toc121076382"></a>Figure 2 Màn hình chờ
 
 Màn hình khởi động
 
-Layout: activity\_main.xml
+- Layout: activity\_main.xml
+- Công dụng: màn hình khởi động khi bật app.
 
-Công dụng: màn hình khởi động khi bật app.
-
-![](Aspose.Words.0dff08cf-e79d-4699-8533-3d962045b6c3.003.jpeg)
+![](Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.003.jpeg)
 
 <a name="_toc121076383"></a>Figure 3 Màn hình khởi động
 
@@ -64,11 +58,10 @@ Công dụng: màn hình khởi động khi bật app.
 
 Màn hình menu đăng nhập
 
-Layout: activity\_first.xml
+- Layout: activity\_first.xml
+- Công dụng: màn hình này hiển thị các chức năng như đăng nhập bằng Facebook, đăng ký, đăng nhập.
 
-Công dụng: màn hình này hiển thị các chức năng như đăng nhập bằng Facebook, đăng ký, đăng nhập.
-
-![](Aspose.Words.0dff08cf-e79d-4699-8533-3d962045b6c3.004.jpeg)
+![](Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.004.jpeg)
 
 <a name="_toc121076384"></a>Figure 4 Màn hình menu đăng nhập
 
@@ -76,152 +69,127 @@ Công dụng: màn hình này hiển thị các chức năng như đăng nhập 
 
 Màn hình đăng nhập
 
-Layout: activity\_dang\_nhap.xml
+- Layout: activity\_dang\_nhap.xml
+- Công dụng: màn hình này hiển thị giao diện đăng nhập
 
-Công dụng: màn hình này hiển thị giao diện đăng nhập
-
-![](Aspose.Words.0dff08cf-e79d-4699-8533-3d962045b6c3.005.jpeg)
+![](Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.005.jpeg)
 
 <a name="_toc121076385"></a>Figure 5 Màn hình đăng nhập
 
 Màn hình đăng ký
 
-Layout: dialog\_dang\_ky\_free.xml
+- Layout: dialog\_dang\_ky\_free.xml
+- Công dụng: màn hình này hiển thị giao diện đăng ký cho người dùng
 
-Công dụng: màn hình này hiển thị giao diện đăng ký cho người dùng
-
-![](Aspose.Words.0dff08cf-e79d-4699-8533-3d962045b6c3.006.jpeg)
+![](Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.006.jpeg)
 
 <a name="_toc121076386"></a>Figure 6 Màn hình đăng ký
 
 Màn hình quên mật khẩu
 
-Layout: dialog\_forget\_pasword.xml, fragment\_dialog\_quen\_mk.xml
+- Layout: dialog\_forget\_pasword.xml, fragment\_dialog\_quen\_mk.xml
+- Công dụng: màn hình này hiển thị giao diện quên mật khẩu của người dùng.
 
-Công dụng: màn hình này hiển thị giao diện quên mật khẩu của người dùng.
-
-![](Aspose.Words.0dff08cf-e79d-4699-8533-3d962045b6c3.007.jpeg)
+![](Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.007.jpeg)
 
 <a name="_toc121076387"></a>Figure 7 Màn hình quên mật khẩu
 
 
 Màn hình đổi mật khẩu
 
-Layout: fragment\_doi\_matkhau.xml
+- Layout: fragment\_doi\_matkhau.xml
+- Công dụng: sau khi xác thực quên mật khẩu thành công người dùng có thể đổi mật khẩu tại màn hình này.
 
-Công dụng: sau khi xác thực quên mật khẩu thành công người dùng có thể đổi mật khẩu tại màn hình này.
-
-![](Aspose.Words.0dff08cf-e79d-4699-8533-3d962045b6c3.008.jpeg)
+![](Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.008.jpeg)
 
 <a name="_toc121076388"></a>Figure 8 Màn hình đổi mật khẩu
 
 
 Màn hình trang chủ
 
-Layout: fragment\_trang\_chu.xml, fragment\_playlist.xml, activity\_home.xml
+- Layout: fragment\_trang\_chu.xml, fragment\_playlist.xml, activity\_home.xml
+- Bao gồm các mục:
+  - Màn hình bảng xếp hạng:  fragment\_bangxephang.xml
+  - Màn hình chủ đề: fragment\_chude.xml
+  - Màn hình nghệ sĩ: fragment\_nghesi.xml
+  - Màn hình phổ biến: fragment\_phobien.xml
+  - Màn hình thịnh hành: fragment\_thinhanh.xml
+  - Mỗi mục chứa layout: activity\_danhsachbaihat.xml
+- Công dụng: màn hình này hiển thị các danh mục bài hát, mỗi danh mục bao gồm tất cả các bài hát trong đó. 
 
-Bao gồm các mục:
-
-`		`Màn hình bảng xếp hạng:  fragment\_bangxephang.xml
-
-Màn hình chủ đề: fragment\_chude.xml
-
-Màn hình nghệ sĩ: fragment\_nghesi.xml
-
-Màn hình phổ biến: fragment\_phobien.xml
-
-Màn hình thịnh hành: fragment\_thinhanh.xml
-
-`			`Mỗi mục chứa layout: activity\_danhsachbaihat.xml
-
-`	`Công dụng: màn hình này hiển thị các danh mục bài hát, mỗi danh mục bao gồm tất cả các bài hát trong đó. 
-
-![](Aspose.Words.0dff08cf-e79d-4699-8533-3d962045b6c3.009.jpeg)
+![](Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.009.jpeg)
 
 <a name="_toc121076389"></a>Figure 9 Màn hình trang chủ
 
 
 Màn hình danh sách bài hát
 
-`	`Layout: activity\_danhsachbaihat.xml
+- Layout: activity\_danhsachbaihat.xml
+- Công dụng: màn hình này hiển thị danh sách bài hát của mỗi chuyên mục.
 
-`	`Công dụng: màn hình này hiển thị danh sách bài hát của mỗi chuyên mục.
-
-![](Aspose.Words.0dff08cf-e79d-4699-8533-3d962045b6c3.010.jpeg)
+![](Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.010.jpeg)
 
 <a name="_toc121076390"></a>Figure 10 Màn hình danh sách bài hát
 
 Màn hình tìm kiếm
 
-Layout: fragment\_tim\_kiem.xml
+- Layout: fragment\_tim\_kiem.xml
+- Công dụng: màn hình này hiển thị giao diện chức năng tìm kiếm bài hát.
 
-Công dụng: màn hình này hiển thị giao diện chức năng tìm kiếm bài hát.
-
-![](Aspose.Words.0dff08cf-e79d-4699-8533-3d962045b6c3.011.jpeg)
+![](Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.011.jpeg)
 
 <a name="_toc121076391"></a>Figure 11 Màn hình tìm kiếm
 
-`	`![](Aspose.Words.0dff08cf-e79d-4699-8533-3d962045b6c3.012.jpeg)
+`	`![](Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.012.jpeg)
 
 <a name="_toc121076392"></a>Figure 12 Màn hình tìm kiếm
 
-
 Màn hình thư viện
 
-Layout: fragment\_thu\_vien.xml
+- Layout: fragment\_thu\_vien.xml
+- Bao gồm các mục:
+  - Thư viện nghệ sĩ: fragment\_thu\_vien\_nghe\_si.xml
+  - Thư viện playlist của người dùng: fragment\_thuvien\_playlist.xml
+  - Thư viện yêu thích của người dùng: fragment\_thuvien\_yeuthich.xml
+- Công dụng: màn hình này hiển thị danh sách thư viện playlist, thư viện các bài hát yêu thích và nghệ sĩ dành cho người dùng.
 
-Bao gồm các mục:
-
-Thư viện nghệ sĩ: fragment\_thu\_vien\_nghe\_si.xml
-
-Thư viện playlist của người dùng: fragment\_thuvien\_playlist.xml
-
-Thư viện yêu thích của người dùng: fragment\_thuvien\_yeuthich.xml
-
-`	`Công dụng: màn hình này hiển thị danh sách thư viện playlist, thư viện các bài hát yêu thích và nghệ sĩ dành cho người dùng.
-
-![](Aspose.Words.0dff08cf-e79d-4699-8533-3d962045b6c3.013.jpeg)
+![](Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.013.jpeg)
 
 <a name="_toc121076393"></a>Figure 13 Màn hình thư viện
 
-`	`![](Aspose.Words.0dff08cf-e79d-4699-8533-3d962045b6c3.014.jpeg)
+`	`![](Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.014.jpeg)
 
 <a name="_toc121076394"></a>Figure 14 Màn hình thư viện
 
-`	`![](Aspose.Words.0dff08cf-e79d-4699-8533-3d962045b6c3.015.jpeg)
+`	`![](Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.015.jpeg)
 
 <a name="_toc121076395"></a>Figure 15 Màn hình thư viện
 
 
 Màn hình profile
 
-Layout: fragment\_profile.xml
+- Layout: fragment\_profile.xml
+- Công dụng: màn hình này hiển thị profile của người dùng và có chức năng đăng xuất tài khoản người dùng.
 
-Công dụng: màn hình này hiển thị profile của người dùng và có chức năng đăng xuất tài khoản người dùng.
-
-![](Aspose.Words.0dff08cf-e79d-4699-8533-3d962045b6c3.016.jpeg)
+![](Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.016.jpeg)
 
 <a name="_toc121076396"></a>Figure 16 Màn hình profile
 
-
 Màn hình tạo playlist
 
-Layout: activity\_insert\_nhac\_thu\_vien.xml, fragment\_insert\_nhac\_thu\_vien.xml, dialog\_insert\_thuvien\_playlist.xml
+- Layout: activity\_insert\_nhac\_thu\_vien.xml, fragment\_insert\_nhac\_thu\_vien.xml, dialog\_insert\_thuvien\_playlist.xml
+- Công dụng: màn hình này hiển thị chức năng tạo playlist, tìm kiếm và thêm nhạc vào playlist riêng của người dùng.
 
-Công dụng: màn hình này hiển thị chức năng tạo playlist, tìm kiếm và thêm nhạc vào playlist riêng của người dùng.
-
-![](Aspose.Words.0dff08cf-e79d-4699-8533-3d962045b6c3.017.jpeg)
+![](Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.017.jpeg)
 
 <a name="_toc121076397"></a>Figure 17 Màn hình profile
 
-
 Màn hình play nhạc
 
-Layout: activity\_play\_nhac.xml, fragment\_dianhac.xml
+- Layout: activity\_play\_nhac.xml, fragment\_dianhac.xml
+- Công dụng: màn hình này hiển thị các nút xử lý bài hát và phát nhạc.
 
-Công dụng: màn hình này hiển thị các nút xử lý bài hát và phát nhạc.
-
-![](Aspose.Words.0dff08cf-e79d-4699-8533-3d962045b6c3.018.jpeg)
+![](Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.018.jpeg)
 
 <a name="_toc121076398"></a>Figure 18 Màn hình play nhạc
 
@@ -231,7 +199,7 @@ Layout: dialog\_update\_profile.xml
 
 Công dụng: khi nhấn vào avatar, màn hình này cho hiện lên bao gồm username cho người dùng biết rằng họ đang xử dụng tài khoản nào.
 
-![](Aspose.Words.0dff08cf-e79d-4699-8533-3d962045b6c3.019.jpeg)
+![](Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.019.jpeg)
 
 <a name="_toc121076399"></a>Figure 19 Màn hình profile ẩn hiện
 
@@ -241,7 +209,7 @@ Layout: layout\_notification.xml
 
 Công dụng: khi khởi chạy một bài hát màn hình này hiển thị lên cho người dùng xử lý bài hát trên thanh thông báo.
 
-![](Aspose.Words.0dff08cf-e79d-4699-8533-3d962045b6c3.020.jpeg)
+![](Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.020.jpeg)
 
 <a name="_toc121076400"></a>Figure 20 Màn hình nhạc trên thanh thông báo
 
@@ -253,269 +221,24 @@ Công dụng: khi khởi chạy một bài hát màn hình này hiển thị lê
 
 <a name="_toc121076374"></a>**3.1 Lược đồ cơ sở dữ liệu**
 
-![](Aspose.Words.0dff08cf-e79d-4699-8533-3d962045b6c3.021.png)
+![](Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.021.png)
 
 <a name="_toc121076401"></a>Figure 21 Lược đồ cơ sở dữ liệu
 
 `	`Mô tả:
 
-Bảng “thinhhanh”: Bao gồm thông tin về các bài hát thịnh hành, bao gồm IdThinhHanh(khóa chính) , TenThinhHanh, HinhThinhHanh.
-
-Bảng “chude” : Bao gồm thông tin về các bài hát theo chủ đề, bao gồm IdChuDe(khóa chính), TenChuDe, HinhChuDe.
-
-Bảng “bangxephang” : Bao gồm thông tin về các bài hát theo bảng xếp hạng, bao gồm IdBangXepHang(khóa chính), TenBangXepHang, HinhBangXepHang.
-
-Bảng “dexuat” : Bao gồm thông tin về các bài hát được đề xuất, bao gồm IdDeXuat(khóa chính), TenDeXuat, HinhDeXuat.
-
-Bảng “nghesi”: Bao gồm thông tin của nghệ sĩ, bao gồm IdNgheSi(khóa chính), TenNgheSi, HinhNgheSi.
-
-Bảng “playlist”: Bao gồm thông tin của danh sách phát, bao gồm IdPlayList(khóa chính), TenPlayList, HinhNen.
-
-Bảng “phobien”: Bao gồm thông tin của danh sách bài hát phổ biến, bao gồm IdPhoBien(khóa chính), TenPhoBien, HinhPhoBien.
-
-Bảng “nguodung”: Bao gồm thông tin của người dùng, bao gồm UserName (khóa chính), Password, Name, Email và Image.
-
-Bảng “thuvienplaylist”: Bao gồm thông tin của các play list của người dùng tạo,bao gồm IDThuVienPlayList(khóa chính), TenThuVienPlayList, HinhThuVienPlayList, UserName(khóa phụ).
-
-Bảng “baihatthuvienplaylist”: Bao gồm các bài hát của các thư viện play list, gồm IdBaiHatThuVienPlayList(khóa chính), IdThuVienPlayList(khóa phụ), IdBaiHat, TenBaiHat, TenCaSi, HinhBaiHat, LinkBaiHat.
-
-Bảng “baihat”: Bao gồm thông tin các bài hát, gồm IdBaiHat (khóa chính),  TenBaiHat, TenCaSi, HinhBaiHat, LinkBaiHat, IdBangXepHang(khóa phụ), IdChuDe(khóa phụ), IdDeXuat(khóa phụ), IdNgheSi(khóa phụ), IdPhoBien(khóa phụ), IdPlayList(khóa phụ), LuotThich, IdThinhHanh(khóa phụ).
-
-Bảng “nguoidungyeuthich”: Bao gồm thông tin của bài hát được yêu thích,bao gồm IdYeuThich(khóa chính), UserName(khóa phụ),, IdBaiHat(khóa phụ),, TenBaiHat, TenCaSi,HinhBaiHat, LinkBaiHat.
-
-<a name="_toc121076375"></a>**3.2 Các dạng dữ liệu khác**
-
-`	`Khi các Table và dữ liệu được nhập trên Database. Một trang web cung cấp các service từ PHP để lấy dữ liệu từ Database rồi hiển thị lên dạng JSON. Ứng dụng nghe nhạc sử dụng Retrofit giúp dễ dàng kết nối đến một dịch vụ REST trên web bằng cách chuyển đổi API thành Java Interface:
-
-nguoidungyeuthich
-
-[
-
-`    `{
-
-`        `"IdYeuThich":"name024",
-
-`        `"UserName":"hotenabc",
-
-`        `"IdBaiHat":""idbaihat,
-
-`        `"TenBaiHat":"tenbaihat",
-
-`        `"TenCaSi":"tencasi",
-
-`        `"HinhBaiHat":"anh",
-
-`        `"LinkBaiHat":"linkbaihat"
-
-`    `}
-
-]
-
-nguodung
-
-[
-
-`    `{
-
-`        `"UserName":"hotenabc",
-
-`        `"Password":"123456",
-
-`        `"Name":"ten",
-
-`        `"Email":"username123@gmail.com",
-
-`        `"Image":"anh"
-
-`    `}
-
-]
-
-thuvienplaylist
-
-[
-
-`    `{
-
-`        `"IDThuVienPlayList":"idthuvienplaylist",
-
-`        `"TenThuVienPlayList":"tenthuvienplaylist",
-
-`        `"HinhThuVienPlayList":"hinhthuvienplaylist",
-
-`        `"UserName":"username"
-
-`    `}
-
-]
-
-baihatthuvienplaylist
-
-[
-
-`	`{
-
-`	`"IdBaiHatThuVienPlayList":"idnhacplaylist",
-
-`    `"IdThuVienPlayList":"idlibplaylist",
-
-`    `"IdBaiHat":"idbaihat",
-
-`    `"TenBaiHat":"tenbaihat",
-
-`    `"TenCaSi":"tencasi",
-
-`    `"HinhBaiHat":"hinhbaihat",
-
-`    `"LinkBaiHat":"linkbaihat"
-
-`	`}
-
-]
-
-baihat
-
-[
-
-`    `{
-
-`        `"IdBaiHat":"id" ,
-
-`        `"TenBaiHat:"tenbaihat",
-
-`        `"TenCaSi:"tencasi", 
-
-`        `"HinhBaiHat:"hinhbaihat",
-
-`        `"LinkBaiHat:"linkbaihat",
-
-`        `"IdBangXepHang:"idbangxephang",
-
-`        `"IdChuDe:"idchude",
-
-`        `"IdDeXuat:"iddexuat",
-
-`        `"IdNgheSi"idnghesi",
-
-`        `"IdPhoBien:"idphobien", 
-
-`        `"IdPlayList:"idplaylist",
-
-`        `"LuotThich:"luotthich",
-
-`        `"IdThinhHanh:"idthinhhanh"
-
-`    `}
-
-]
-
-bangxephang
-
-[
-
-`    `{
-
-`        `"IdBangXepHang": "2",
-
-`        `"TenBangXepHang": "Top 50 USA",
-
-`        `"HinhBangXepHang": "https://huy329.000webhostapp.com/HinhAnh/BangXepHang/Top%2050%20USA.jpg"
-
-`    `}
-
-]
-
-chude
-
-[
-
-`    `{
-
-`        `"IdChuDe": "6",
-
-`        `"TenChuDe": "Discover Weekly",
-
-`        `"HinhChuDe": "https://huy329.000webhostapp.com/HinhAnh/ChuDe/Discover%20Weekly.jpg"
-
-`    `}
-
-]
-
-nghesi
-
-[
-
-`    `{
-
-`        `"IdNgheSi": "6",
-
-`        `"TenNgheSi": "Noo Phước Thịnh",
-
-`        `"HinhNgheSi": "https://huy329.000webhostapp.com/HinhAnh/NgheSi/Noo%20Ph%C6%B0%E1%BB%9Bc%20Th%E1%BB%8Bnh.jpg"
-
-`    `}
-
-]
-
-phobien
-
-[
-
-`    `{
-
-`        `"IdPhoBien": "6",
-
-`        `"TenPhoBien": "Maroon 5",
-
-`        `"HinhPhoBien": "https://huy329.000webhostapp.com/HinhAnh/PhoBien/Maroon%205.jpg"
-
-`    `},
-
-`    `{
-
-`        `"IdPhoBien": "2",
-
-`        `"TenPhoBien": "BTS",
-
-`        `"HinhPhoBien": "https://huy329.000webhostapp.com/HinhAnh/PhoBien/BTS.jpg"
-
-`    `}
-
-]
-
-
-playlist
-
-[
-
-`    `{
-
-`        `"IdPlaylist": "9",
-
-`        `"Ten": "Trịnh Thăng Bình Radio",
-
-`        `"HinhPlaylist": "https://huy329.000webhostapp.com/HinhAnh/Playlist/Tr%E1%BB%8Bnh%20Th%C4%83ng%20B%C3%ACnh%20Radio.jpg"
-
-`    `}
-
-]
-
-thinhhanh
-
-[
-
-`    `{
-
-`        `"IdThinhHanh": "2",
-
-`        `"TenThinhHanh": "Fresh Finds",
-
-`        `"HinhThinhHanh": "https://huy329.000webhostapp.com/HinhAnh/ThinhHanh/Fresh%20Finds.jpg"
-
-`    `}
-
-]
-
+- Bảng “thinhhanh”: Bao gồm thông tin về các bài hát thịnh hành, bao gồm IdThinhHanh(khóa chính) , TenThinhHanh, HinhThinhHanh.
+- Bảng “chude” : Bao gồm thông tin về các bài hát theo chủ đề, bao gồm IdChuDe(khóa chính), TenChuDe, HinhChuDe.
+- Bảng “bangxephang” : Bao gồm thông tin về các bài hát theo bảng xếp hạng, bao gồm IdBangXepHang(khóa chính), TenBangXepHang, HinhBangXepHang.
+- Bảng “dexuat” : Bao gồm thông tin về các bài hát được đề xuất, bao gồm IdDeXuat(khóa chính), TenDeXuat, HinhDeXuat.
+- Bảng “nghesi”: Bao gồm thông tin của nghệ sĩ, bao gồm IdNgheSi(khóa chính), TenNgheSi, HinhNgheSi.
+- Bảng “playlist”: Bao gồm thông tin của danh sách phát, bao gồm IdPlayList(khóa chính), TenPlayList, HinhNen.
+- Bảng “phobien”: Bao gồm thông tin của danh sách bài hát phổ biến, bao gồm IdPhoBien(khóa chính), TenPhoBien, HinhPhoBien.
+- Bảng “nguodung”: Bao gồm thông tin của người dùng, bao gồm UserName (khóa chính), Password, Name, Email và Image.
+- Bảng “thuvienplaylist”: Bao gồm thông tin của các play list của người dùng tạo,bao gồm IDThuVienPlayList(khóa chính), TenThuVienPlayList, HinhThuVienPlayList, UserName(khóa phụ).
+- Bảng “baihatthuvienplaylist”: Bao gồm các bài hát của các thư viện play list, gồm IdBaiHatThuVienPlayList(khóa chính), IdThuVienPlayList(khóa phụ), IdBaiHat, TenBaiHat, TenCaSi, HinhBaiHat, LinkBaiHat.
+- Bảng “baihat”: Bao gồm thông tin các bài hát, gồm IdBaiHat (khóa chính),  TenBaiHat, TenCaSi, HinhBaiHat, LinkBaiHat, IdBangXepHang(khóa phụ), IdChuDe(khóa phụ), IdDeXuat(khóa phụ), IdNgheSi(khóa phụ), IdPhoBien(khóa phụ), IdPlayList(khóa phụ), LuotThich, IdThinhHanh(khóa phụ).
+- Bảng “nguoidungyeuthich”: Bao gồm thông tin của bài hát được yêu thích,bao gồm IdYeuThich(khóa chính), UserName(khóa phụ),, IdBaiHat(khóa phụ),, TenBaiHat, TenCaSi,HinhBaiHat, LinkBaiHat.
 
 
 
