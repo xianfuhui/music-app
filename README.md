@@ -140,7 +140,7 @@ Màn hình tìm kiếm
 
 <a name="_toc121076391"></a>Figure 11 Màn hình tìm kiếm
 
-`	`![](Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.012.jpeg)
+![](Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.012.jpeg)
 
 <a name="_toc121076392"></a>Figure 12 Màn hình tìm kiếm
 
