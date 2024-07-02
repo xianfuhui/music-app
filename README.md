@@ -157,11 +157,11 @@ Màn hình thư viện
 
 <a name="_toc121076393"></a>Figure 13 Màn hình thư viện
 
-`	`![](Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.014.jpeg)
+![](Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.014.jpeg)
 
 <a name="_toc121076394"></a>Figure 14 Màn hình thư viện
 
-`	`![](Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.015.jpeg)
+![](Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.015.jpeg)
 
 <a name="_toc121076395"></a>Figure 15 Màn hình thư viện
 
@@ -225,7 +225,7 @@ Công dụng: khi khởi chạy một bài hát màn hình này hiển thị lê
 
 <a name="_toc121076401"></a>Figure 21 Lược đồ cơ sở dữ liệu
 
-`	`Mô tả:
+Mô tả:
 
 - Bảng “thinhhanh”: Bao gồm thông tin về các bài hát thịnh hành, bao gồm IdThinhHanh(khóa chính) , TenThinhHanh, HinhThinhHanh.
 - Bảng “chude” : Bao gồm thông tin về các bài hát theo chủ đề, bao gồm IdChuDe(khóa chính), TenChuDe, HinhChuDe.
