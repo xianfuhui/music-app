@@ -1,6 +1,4 @@
-<a name="_toc121076379"></a>**ĐƯỜNG LINK ĐẾN VIDEO DEMO**
-
-https://www.youtube.com/watch?v=63Jyy0POGnc&t=18s
+<a name="_toc121076379"></a>**ĐƯỜNG LINK ĐẾN VIDEO DEMO**: https://www.youtube.com/watch?v=63Jyy0POGnc&t=18s
 
  <a name="_toc121076370"></a>**CHƯƠNG 1: PHÁT BIỂU BÀI TOÁN**
 
