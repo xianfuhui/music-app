@@ -1,4 +1,8 @@
-﻿<a name="_toc121076370"></a>**CHƯƠNG 1: PHÁT BIỂU BÀI TOÁN**
+<a name="_toc121076379"></a>**ĐƯỜNG LINK ĐẾN VIDEO DEMO**
+
+https://www.youtube.com/watch?v=63Jyy0POGnc&t=18s
+
+ <a name="_toc121076370"></a>**CHƯƠNG 1: PHÁT BIỂU BÀI TOÁN**
 
 ![](./README_images/Aspose.Words.ef006f11-09ff-480c-b623-de9c956acc72.001.jpeg)
 
@@ -277,10 +281,3 @@ Mô tả:
 |8|okhttp3|latest|Apache License 2.0|Tất cả các màn hình|
 
 <a name="_toc121076402"></a>Table 1 Thông tin của thư viện
-
-
-
-
-<a name="_toc121076379"></a>**ĐƯỜNG LINK ĐẾN VIDEO DEMO**
-
-https://www.youtube.com/watch?v=63Jyy0POGnc&t=18s
